@@ -6,7 +6,7 @@ This is a **scaffold, not a completed assignment**. The `TODO` comments identify
 
 | Person | Files | Responsibilities |
 | --- | --- | --- |
-| **Leon (you)** | `Server.java`, `ClientHandler.java` | Parse server arguments; prompt for `str` and positive `N`; accept connections; handle up to `max_clients` simultaneously; send `str` N times, 1 second apart, newline on final send; track/release active-client slots. |
+| **Leon** | `Server.java`, `ClientHandler.java` | Parse server arguments; prompt for `str` and positive `N`; accept connections; handle up to `max_clients` simultaneously; send `str` N times, 1 second apart, newline on final send; track/release active-client slots. |
 | **Karthik** | `NaiveClient.java`, `BufferClient.java` | Parse server IP/port; connect with TCP; print characters immediately in NaiveClient; buffer until newline in BufferClient; terminate after newline; lead integration testing. |
 | **Both** | All files | Compile, test both client types and concurrent clients; handle edge cases and verify the output. |
 
